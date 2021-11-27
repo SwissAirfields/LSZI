@@ -1,0 +1,71 @@
+<AssetPackage Name="sac-airport-lszi" Version="0.1.0">
+	<ItemSettings>
+		<ContentType>SCENERY</ContentType>
+		<Title>LSZI Fricktal-Schupfart</Title>
+		<Manufacturer/>
+		<Creator>Swiss Airfield Crafters</Creator>
+	</ItemSettings>
+	<Flags>
+		<VisibleInStore>false</VisibleInStore>
+		<CanBeReferenced>false</CanBeReferenced>
+	</Flags>
+	<AssetGroups>
+		<AssetGroup Name="ContentInfo">
+			<Type>ContentInfo</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageDefinitions\sac-airport-lszi\ContentInfo\</AssetDir>
+			<OutputDir>ContentInfo\sac-airport-lszi\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="airport-lszi-fricktal_schupfart">
+			<Type>BGL</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\Scenery\</AssetDir>
+			<OutputDir>scenery\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="LSZI-Aerial">
+			<Type>CGL</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\Aerial\</AssetDir>
+			<OutputDir>CGL\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="LSZI-Assets">
+			<Type>ModelLib</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\Assets\</AssetDir>
+			<OutputDir>scenery\LSZI-Assets\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="LSZI-Materials">
+			<Type>MaterialLib</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\Materials\</AssetDir>
+			<OutputDir>MaterialLibs\LSZI-Materials\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="SwissAirfieldsAssets">
+			<Type>ModelLib</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>SACommon\PackageSources\Assets\</AssetDir>
+			<OutputDir>scenery\SwissAirfieldsAssets\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="SwissAirfieldsMaterials">
+			<Type>MaterialLib</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>SACommon\PackageSources\Materials\</AssetDir>
+			<OutputDir>MaterialLibs\SwissAirfieldsMaterials\</OutputDir>
+		</AssetGroup>
+	</AssetGroups>
+</AssetPackage>
+
