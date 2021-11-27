@@ -1,0 +1,4 @@
+[submodule "SACommon"]
+	path = SACommon
+	url = git@github.com:SwissAirfields/SACommon.git
+	branch = master
